@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,AAAC,CACJ,WAAW,CAAE,mBAAmB,CAChC,KAAK,CAAE,mBAAmB,CAE1B,WAAW,CAAE,IAAI,CACjB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,YAAY,CACrB,YAAY,CAAE,IAAI,CAUnB,AARE,AAAD,WAAO,AAAC,CACN,KAAK,CAAE,OAAO,CACf,AACA,AAAD,kBAAc,AAAC,CACb,KAAK,CAAE,OAAO,CACd,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,EAAE,CACnB",
-    "sources": [
-        "../sass/components/logo.scss"
-    ],
-    "names": [],
-    "file": "logo.min.css"
-}
