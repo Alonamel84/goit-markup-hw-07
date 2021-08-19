@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,+BAA+B,CACjD,KAAK,CAAE,yBAAyB,CAChC,cAAc,CAAE,MAAM,CAEtB,WAAW,CAAE,kBAAkB,CAChC",
+    "sources": [
+        "../sass/layout/body.scss"
+    ],
+    "names": [],
+    "file": "body.min.css"
+}
