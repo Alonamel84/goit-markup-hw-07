@@ -1,20 +1,23 @@
-@import './base/reset';
-@import './base/vars';
-@import './components/container';
+@import './utils/variables';
+@import './base/common';
+
+@import './base/container';
+
 @import './layout/body';
 @import './layout/header';
+@import './layout/banner';
+@import './layout/features';
+@import './layout/scope';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './layout/modal';
+
 @import './components/logo';
 @import './components/nav';
 @import './components/contacts';
-@import './layout/banner';
-@import './layout/features';
 @import './components/title';
-@import './layout/scope';
 @import './components/buttons';
-@import './layout/team';
 @import './components/social-links';
-@import './layout/customers';
-@import './layout/footer';
 @import './components/forms';
-@import './layout/portfolio';
-@import './layout/modal';
