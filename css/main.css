@@ -6,19 +6,6 @@ a {
   list-style: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -62,6 +49,19 @@ img {
   display: block;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -96,19 +96,19 @@ header {
   margin-right: 93px;
 }
 
-.logo-color {
-  color: #000000;
-}
-
-.logo-color-footer {
-  color: #ffffff;
-  padding-top: 0px;
-  padding-bottom: 0%;
-}
-
 .nav-container .logo {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.logo__header {
+  color: #000000;
+}
+
+.logo__footer {
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0%;
 }
 
 .site-nav {
@@ -149,17 +149,17 @@ header {
   display: flex;
 }
 
-.nav-container-item a {
+.nav-container__item a {
   display: block;
   align-items: center;
   padding: 32px 0;
 }
 
-.list.nav-container :not(:last-child) {
+.nav-container__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts {
+.nav-container__contacts {
   color: var(--primary-text-color);
   display: inline-block;
   font-size: 14px;
@@ -167,12 +167,12 @@ header {
   line-height: 1.17;
 }
 
-.contacts:hover, .contacts:focus {
+.nav-container__contacts:hover, .nav-container__contacts:focus {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.contacts {
+a.nav-container__contacts {
   display: flex;
   align-items: center;
 }
@@ -183,8 +183,8 @@ a.contacts {
   align-items: center;
 }
 
-.contacts:focus > .header-icon,
-.contacts:hover > .header-icon {
+.nav-container__contacts:focus > .header-icon,
+.nav-container__contacts:hover > .header-icon {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -243,7 +243,7 @@ a.contacts {
   margin-left: -30px;
 }
 
-.item-feature {
+.list-of-features__item-feature {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: var(--card-set-item);
 }
@@ -345,12 +345,12 @@ a.contacts {
   overflow: initial;
 }
 
-.photo-work {
+.scope-list {
   display: flex;
   margin-left: -30px;
 }
 
-.item-photo-work {
+.scope-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: var(--card-set-item);
   position: relative;

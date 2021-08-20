@@ -34,13 +34,15 @@
 .nav-container {
   display: flex;
 
-  &-item a {
-    display: block;
-    align-items: center;
-    padding: 32px 0;
-  }
+  // .list &:not(:last-child) {
+  //   margin-right: 50px;
+  // }
 }
-
-.list.nav-container :not(:last-child) {
+.nav-container__item a {
+  display: block;
+  align-items: center;
+  padding: 32px 0;
+}
+.nav-container__item:not(:last-child) {
   margin-right: 50px;
 }

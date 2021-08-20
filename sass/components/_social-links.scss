@@ -1,13 +1,12 @@
 .social-list {
   display: flex;
   margin-right: -10px;
-
-  &-item {
-    margin-right: 10px;
-    width: 44px;
-    justify-content: center;
-    align-items: center;
-  }
+}
+.social-list-item {
+  margin-right: 10px;
+  width: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-list-link {
